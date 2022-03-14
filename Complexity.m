@@ -26,7 +26,8 @@ title('Poisson with mean 18');
 xlabel('Number of active users');
 ylabel('Probability');
 grid on;
-%% CDF of number sof users in any TO
+
+%% CDF of number of users in any TO
 figure;
 k = 0:lambd;
 for t = 1:length(T)
